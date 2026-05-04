@@ -1,7 +1,292 @@
-<html>
+<!DOCTYPE html>
+<html lang="ko">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(주)비에이텍 - 워터 펌프 제작 및 수리 전문</title>
+    <meta name="description" content="(주)비에이텍은 워터 펌프 제작, 설치, 유지보수 및 수리를 전문으로 하는 기업입니다. ISO 9001 인증의 신뢰할 수 있는 기술력을 만나보세요.">
+    <meta name="keywords" content="워터 펌프 수리, 펌프 제작 설치, (주)비에이텍, 수중 펌프, 산업용 펌프">
+    
+    <!-- Fonts -->
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
+    
+    <!-- Icons (Phosphor Icons) -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-까꿍
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <i class="ph-fill ph-drop"></i> BEATECH
+            </a>
+            
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="메뉴 열기">
+                <i class="ph ph-list"></i>
+            </button>
+
+            <nav class="nav-links" id="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About Us</a>
+                <a href="#history" class="nav-link">History & Awards</a>
+                <a href="#equipment" class="nav-link">Equipment</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="#inquiry" class="btn btn-primary nav-btn">문의하기</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <img src="assets/images/hero.png" alt="워터 펌프">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container hero-content fade-up">
+            <span class="badge">ISO 9001:2015 인증 기업</span>
+            <h1>깨끗한 물, 끊임없는 흐름<br><span class="highlight">최상의 펌프 기술력</span></h1>
+            <p>(주)비에이텍은 신뢰와 혁신을 바탕으로 최적의 워터 펌프 제작, 설치, 수리 솔루션을 제공합니다.</p>
+            <div class="hero-buttons">
+                <a href="#inquiry" class="btn btn-primary btn-lg">프로젝트 문의</a>
+                <a href="#about" class="btn btn-outline btn-lg">회사 소개</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Summary -->
+    <section class="services section">
+        <div class="container">
+            <div class="service-grid">
+                <div class="service-card fade-up" style="transition-delay: 0.1s;">
+                    <div class="service-icon"><i class="ph-fill ph-gear"></i></div>
+                    <h3>펌프 제작</h3>
+                    <p>고객의 요구사항에 맞춘 고효율 산업용 및 상업용 워터 펌프 맞춤 제작.</p>
+                </div>
+                <div class="service-card fade-up" style="transition-delay: 0.2s;">
+                    <div class="service-icon"><i class="ph-fill ph-wrench"></i></div>
+                    <h3>설치 및 시공</h3>
+                    <p>전문 엔지니어가 현장에 방문하여 완벽하고 안전한 펌프 설치를 보장합니다.</p>
+                </div>
+                <div class="service-card fade-up" style="transition-delay: 0.3s;">
+                    <div class="service-icon"><i class="ph-fill ph-stethoscope"></i></div>
+                    <h3>유지보수 및 수리</h3>
+                    <p>정기 점검 및 긴급 수리 서비스를 통해 설비의 다운타임을 최소화합니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about section bg-light">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text fade-up">
+                    <h2 class="section-title">고객 만족을 위한<br>최상의 기술 서비스</h2>
+                    <p class="subtitle">최고의 품질과 서비스로 보답하는 (주)비에이텍입니다.</p>
+                    <p>안녕하십니까, (주)비에이텍을 찾아주신 고객 여러분 환영합니다. 저희는 수년간 축적된 노하우와 기술력을 바탕으로 워터 펌프 분야의 선도 기업으로 자리매김하고 있습니다.</p>
+                    <p><strong>"고객 만족을 위한 최상의 기술 서비스 제공"</strong>이라는 품질경영방침 아래, 앞으로도 끊임없는 연구개발과 혁신을 통해 더욱 신뢰받는 파트너가 되겠습니다.</p>
+                    
+                    <div class="ceo-sign">
+                        <span>CEO</span> <strong>비에이텍 대표이사</strong>
+                    </div>
+                </div>
+                <div class="about-image fade-up">
+                    <div class="image-wrapper">
+                        <img src="assets/images/equipment.png" alt="비에이텍 설비 전경">
+                        <div class="floating-badge">
+                            <i class="ph-fill ph-check-circle"></i>
+                            <span>업계 최고 기술력</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- History & Awards Section -->
+    <section id="history" class="history section">
+        <div class="container">
+            <div class="section-header text-center fade-up">
+                <h2 class="section-title">업력 및 인증</h2>
+                <p>끊임없는 도전과 혁신으로 이룩한 (주)비에이텍의 발자취</p>
+            </div>
+            
+            <div class="history-content">
+                <div class="history-timeline fade-up">
+                    <div class="timeline-item">
+                        <div class="year">2023</div>
+                        <div class="info">
+                            <h4>ISO 9001:2015 품질경영시스템 인증 획득</h4>
+                            <p>인증 범위: 펌프 제작, 설치 및 부가 서비스</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="year">2021</div>
+                        <div class="info">
+                            <h4>사업 확장 및 신사옥 이전</h4>
+                            <p>최신 설비 도입 및 연구개발 전담 부서 신설</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="year">2018</div>
+                        <div class="info">
+                            <h4>주요 공공기관 유지보수 계약 체결</h4>
+                            <p>전국망 서비스 구축</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="year">2015</div>
+                        <div class="info">
+                            <h4>(주)비에이텍 법인 설립</h4>
+                            <p>산업용 워터 펌프 전문 제작 시작</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cert-card fade-up">
+                    <img src="assets/images/iso.png" alt="ISO 9001 인증서" class="cert-img">
+                    <div class="cert-info">
+                        <h3>ISO 9001:2015</h3>
+                        <p>품질경영시스템 인증</p>
+                        <p class="cert-desc">국제 표준 규격에 부합하는 철저한 품질 관리로 최고의 제품과 서비스를 약속합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipment Section -->
+    <section id="equipment" class="equipment section bg-dark text-white">
+        <div class="container">
+            <div class="section-header text-center fade-up">
+                <h2 class="section-title">장비 및 시설</h2>
+                <p>정밀한 제작과 완벽한 수리를 위한 첨단 설비</p>
+            </div>
+            
+            <div class="equipment-grid fade-up">
+                <div class="eq-card">
+                    <div class="eq-icon"><i class="ph ph-cpu"></i></div>
+                    <h4>정밀 가공 설비</h4>
+                    <p>오차 없는 부품 생산을 위한 최신 CNC 및 머시닝 센터 운영</p>
+                </div>
+                <div class="eq-card">
+                    <div class="eq-icon"><i class="ph ph-chart-line-up"></i></div>
+                    <h4>성능 테스트 벤치</h4>
+                    <p>출하 전 수압, 유량, 효율을 정밀하게 측정하는 검사 시스템</p>
+                </div>
+                <div class="eq-card">
+                    <div class="eq-icon"><i class="ph ph-shield-check"></i></div>
+                    <h4>진동/소음 분석기</h4>
+                    <p>펌프 설치 및 수리 후 최적의 구동 상태를 보장하기 위한 분석 장비</p>
+                </div>
+                <div class="eq-card">
+                    <div class="eq-icon"><i class="ph ph-truck"></i></div>
+                    <h4>출동 차량 및 현장 장비</h4>
+                    <p>긴급 A/S 발생 시 즉각적인 대응을 위한 전용 특장차량 및 이동식 정비 세트</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Inquiry Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="contact-layout">
+                <!-- Location Info -->
+                <div class="contact-info fade-up">
+                    <h2 class="section-title">Contact Us</h2>
+                    <p class="contact-desc">펌프 관련 문의사항이 있으시면 언제든지 연락 주시기 바랍니다.</p>
+                    
+                    <ul class="info-list">
+                        <li>
+                            <i class="ph-fill ph-map-pin"></i>
+                            <div>
+                                <strong>주소</strong>
+                                <p>서울특별시 영등포구 선유로 123, 비에이텍 빌딩 1층</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="ph-fill ph-phone"></i>
+                            <div>
+                                <strong>전화번호</strong>
+                                <p>02-1234-5678</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="ph-fill ph-envelope-simple"></i>
+                            <div>
+                                <strong>이메일</strong>
+                                <p>info@beatech.co.kr</p>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                    <!-- Naver Map iframe placeholder -->
+                    <div class="map-container">
+                        <iframe src="https://map.naver.com/v5/api/iframe?lng=126.891157&lat=37.526279&zoom=15" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                </div>
+                
+                <!-- Inquiry Form -->
+                <div class="inquiry-form-container fade-up" id="inquiry">
+                    <h3 class="form-title">문의하기</h3>
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">고객명 / 회사명 <span class="required">*</span></label>
+                            <input type="text" id="name" name="name" required placeholder="이름을 입력하세요">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">연락처 <span class="required">*</span></label>
+                            <input type="tel" id="phone" name="phone" required placeholder="010-0000-0000">
+                        </div>
+                        <div class="form-group">
+                            <label for="type">문의 유형 <span class="required">*</span></label>
+                            <div class="custom-select">
+                                <select id="type" name="type" required>
+                                    <option value="" disabled selected>유형을 선택하세요</option>
+                                    <option value="production">펌프 제작</option>
+                                    <option value="installation">펌프 설치</option>
+                                    <option value="repair">유지보수 및 수리</option>
+                                    <option value="other">기타 문의</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">문의 내용 <span class="required">*</span></label>
+                            <textarea id="message" name="message" rows="5" required placeholder="상세한 문의 내용을 입력해주세요"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block btn-lg">문의 접수하기 <i class="ph-bold ph-paper-plane-right"></i></button>
+                    </form>
+                    <div id="form-success" class="form-message success" style="display: none;">
+                        <i class="ph-fill ph-check-circle"></i> 문의가 성공적으로 접수되었습니다. 빠른 시일 내에 연락드리겠습니다.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="ph-fill ph-drop"></i> BEATECH
+                </div>
+                <div class="footer-info">
+                    <p>상호명: (주)비에이텍 | 대표자: 홍길동 | 사업자등록번호: 123-45-67890</p>
+                    <p>주소: 서울특별시 영등포구 선유로 123, 비에이텍 빌딩 1층 | TEL: 02-1234-5678 | Email: info@beatech.co.kr</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 BEATECH Co., Ltd. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="js/main.js"></script>
 </body>
 </html>
