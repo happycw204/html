@@ -757,3 +757,28 @@ h1, h2, h3, h4, h5, h6 {
         margin-top: 10px;
     }
 }
+
+/* Utilities */
+.mb-2 { margin-bottom: 10px; }
+.mb-3 { margin-bottom: 15px; }
+.mb-4 { margin-bottom: 20px; }
+.mb-5 { margin-bottom: 40px; }
+.mt-2 { margin-top: 10px; }
+.mt-3 { margin-top: 15px; }
+.mt-4 { margin-top: 20px; }
+.mt-5 { margin-top: 40px; }
+.text-left { text-align: left; }
+.text-muted { color: var(--text-muted); }
+.list-unstyled { list-style: none; padding-left: 0; }
+.list-unstyled li { margin-bottom: 8px; }
+.btn-sm { padding: 6px 16px; font-size: 0.9rem; }
+.btn-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: var(--primary-blue);
+    font-weight: 600;
+    text-decoration: underline;
+}
+.btn-link:hover {
+    color: var(--accent-blue);
+}
