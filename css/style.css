@@ -782,3 +782,93 @@ h1, h2, h3, h4, h5, h6 {
 .btn-link:hover {
     color: var(--accent-blue);
 }
+
+/* Org Chart */
+.org-chart-box {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--border-color);
+    margin-top: 20px;
+}
+.org-level-1 {
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+.org-level-1 .box {
+    display: inline-block;
+    background: var(--bg-dark);
+    color: white;
+    padding: 12px 40px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    position: relative;
+    z-index: 2;
+}
+.org-level-1::after {
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 30px;
+    background: var(--primary-blue);
+    z-index: 1;
+}
+.org-level-2 {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    position: relative;
+    border-top: 2px solid var(--primary-blue);
+    padding-top: 20px;
+}
+.org-col {
+    flex: 1;
+    min-width: 140px;
+    background: var(--bg-light);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: var(--shadow-sm);
+}
+.org-col::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 20px;
+    background: var(--primary-blue);
+}
+.org-col-header {
+    background: var(--primary-blue);
+    color: white;
+    padding: 12px 10px;
+    text-align: center;
+    font-weight: 600;
+}
+.org-col-body {
+    padding: 12px;
+    text-align: center;
+}
+.org-col-item {
+    background: white;
+    border: 1px solid rgba(0, 86, 179, 0.2);
+    color: var(--primary-blue);
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.org-col-item:last-child {
+    margin-bottom: 0;
+}
